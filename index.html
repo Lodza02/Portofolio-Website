@@ -14,21 +14,14 @@
         }
         .dropdown-menu {
             display: none; /* Hide dropdown by default */
-        }footer {
-    margin: 0; /* Ensure no margin */
-}
-
-.row-cols-1.row-cols-sm-2.row-cols-md-5 {
-    padding-left: 0; /* Reset left padding */
-    padding-right: 0; /* Reset right padding */
-}
- 
+        } 
   </style>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Offcanvas navbar large">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/images/my logo.png" alt="Lawson The Web Developer Logo" height="65"></a>
+        <a class="navbar-brand" href="#"><img src="my logo.png" alt="Lawson The Web Developer Logo" height="90"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,10 +31,10 @@
             </div>
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                    <li class="nav-item ms-1">
+                    <li class="nav-item ms-1 lead ">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown ms-1">
+                    <li class="nav-item dropdown ms-1 lead ">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" aria-expanded="false">
                             About
                         </a>
@@ -53,7 +46,7 @@
                             <li><a class="dropdown-item" href="#">Get a Quote</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown ms-1">
+                    <li class="nav-item dropdown ms-1 lead ">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" aria-expanded="false">
                             Services
                         </a>
@@ -67,62 +60,133 @@
                             <li><a class="dropdown-item" href="#">Web Hosting</a></li>
                         </ul>
                     </li>
-                    <a href="services.html" class="ms-1">
-                      <button class="btn btn-light d-inline-flex" type="button">
-                          Work With Lawson
-                          <i class="bi bi-arrow-right-short ms-1"></i>
-                      </button>
-                  </a>
+
+      <a href="#" class="btn btn-light btn-lg lead ms-1">Work With Lawson
+        <i class="bi bi-arrow-right-short ms-1"></i> 
+      </a>
+                  
                 </ul>
             </div>
         </div>
     </div>
 </nav>
-<div class="container">
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+<br>
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="afternavbar.webp" class="d-block mx-lg-auto img-fluid" alt="A guy on a computer " width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Junior Web Developer</h1>
+      <p class="lead">With the rise of digital engagement, establishing your online presence is essential. Let me help you connect with more customers and grow your brand</p>
+     
+      <a href="#" class="btn btn-dark btn-lg lead">Let's Work Together
+        <i class="bi bi-arrow-right-short ms-1"></i> 
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid px-4 py-5 bg-dark">
+  <h2 class="display-5 fw-bold text-white mb-3">Services</h2>
+
+  <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+    <div class="col d-flex flex-column align-items-start gap-2">
+      <h2 class="display-5 text-white">Creating a seamless online experience through engaging web design, reliable hosting, ongoing maintenance, and strategic upgrades</h2>
+    
+      <a href="#" class="btn btn-light btn-lg mt-3">Get A Quote
+        <i class="bi bi-arrow-right-short ms-1"></i> 
+      </a>
+    </div>
+
+    <div class="col">
+      <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#collection"></use>
+            </svg>
+          </div>
+          <h4 class="fw-bold mb-0 text-white">Web Design and Development</h4>
+          <p class="lead text-white">Creating responsive websites that engage visitors and showcase your brand</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#table"></use>
+            </svg>
+          </div>
+          <h4 class="fw-bold mb-0 text-white">Web Hosting</h4>
+          <p class="lead text-white">Utilizing cloud computing for dependable hosting with guaranteed availability and robust uptime</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#gear-fill"></use>
+            </svg>
+          </div>
+          <h4 class="fw-bold mb-0 text-white">Web Maintenance</h4>
+          <p class="lead text-white">Comprehensive maintenance services for optimal site performance and security</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#speedometer"></use>
+            </svg>
+          </div>
+          <h4 class="fw-bold mb-0 text-white">Web Upgrade</h4>
+          <p class="lead text-white">Revamping your site for better user experience and functionality.</p>
+        </div>
+
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-dark">
     <div class="col mb-3">
       <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
         <!--<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>-->
-        <img src="/images/my logo.png" alt="" height="85">
+        <img src="my logo.png" alt="" height="100">
       </a>
       <!--<p class="text-body-secondary">© 2024</p>-->
     </div>
-    
 
     <div class="col mb-3">
 
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5 class="fw-bold text-white fs-3">About</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Me</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Projects</a></li>
       </ul>
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5 class="fw-bold text-white fs-3">Services</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Web Design and Development</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Web Maintenance</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Web Upgrade</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Web Hosting</a></li>
       </ul>
     </div>
 
     <div class="col mb-3">
-      <h5>Section</h5>
+      <h5 class="fw-bold text-white fs-3">Contact</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Get In Touch</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Product Malfunctioning?</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Get A Quote</a></li>
+        <li class="nav-item mb-2 lead "><a href="#" class="nav-link p-0 text-white">Suggestions</a></li>
+
       </ul>
     </div>
   </footer>
